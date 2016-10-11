@@ -64,7 +64,7 @@ php artisan serve
 Berikut ini adalah metode untuk _production delivery_ aplikasi berbasis Web 3.0
 
 ```sh
-composer dump-autoload --no-dev --optimize
+php artisan optimize --force
 ```
 
 ### _Back-end developer_
