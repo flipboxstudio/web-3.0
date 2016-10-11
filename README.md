@@ -25,7 +25,12 @@
 
 - Lumen 5.3
   - Flipbox Fractal
-  - Flipbox Generators
+  - Flipbox Console Support
+    - Code Generator
+    - Optimizer
+    - Tinker
+    - Key Generator
+    - PHP Built-in-Server
   - Laravel Passport
   - Laravel Broadcaster
 - Vue 2.0
@@ -84,6 +89,7 @@ npm run build
 
 ## ToDo
 
+- [ ] Documentation
 - [ ] Passport test
 - [ ] Code Generator test
 - [ ] Basis CSS Framework untuk front-end developer
