@@ -1,0 +1,21 @@
+{
+    "name": "flipbox/web-3.0",
+    "description": "A Web 3.0 Approach",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krisan Alfa Timur",
+            "email": "krisan47@gmail.com"
+        }
+    ],
+    "scripts": {
+        "post-root-package-install": [
+            "cd backend/ && php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "cd backend/ && composer install && php artisan key:generate",
+            "cd frontend/ && npm install && npm run build"
+        ]
+    }
+}
