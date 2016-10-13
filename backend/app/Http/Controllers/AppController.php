@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Laravel\Lumen\Application;
-use Flipbox\Fractal\Facades\Fractal;
-use Flipbox\Fractal\Transformers\ArrayTransformer;
+use Flipbox\Komodo\Facades\Fractal;
+use Flipbox\Komodo\Transformers\ArrayTransformer;
 
 class AppController extends Controller
 {
@@ -13,7 +13,8 @@ class AppController extends Controller
         return Fractal::item([
             'name' => 'Web 3.0',
             'version' => $app->version(),
-        ])->transformWith(new ArrayTransformer())
+        ])
+        ->transformWith(new ArrayTransformer())
         ->withResourceName('data')
         ->withStatus('ok')
         ->withMessage('success');

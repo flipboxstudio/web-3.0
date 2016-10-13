@@ -18,7 +18,7 @@
         "psr-4": {
             "App\\": "app/",
             "Flipbox\\ConsoleSupport\\": "src/ConsoleSupport/",
-            "Flipbox\\Fractal\\": "src/Fractal/"
+            "Flipbox\\Komodo\\": "src/Komodo/"
         }
     },
     "autoload-dev": {
