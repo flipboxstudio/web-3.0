@@ -1,13 +1,13 @@
 <?php
 
-namespace Flipbox\Fractal\Facades;
+namespace Flipbox\Komodo\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Flipbox\Fractal
+ * @see \Flipbox\Komodo\Router
  */
-class Fractal extends Facade
+class Router extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class Fractal extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'flipbox-fractal';
+        return 'komodo.router';
     }
 }

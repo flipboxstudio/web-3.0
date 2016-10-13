@@ -1,8 +1,8 @@
 <?php
 
-namespace Flipbox\Fractal\Serializers;
+namespace Flipbox\Komodo\Serializers;
 
-use Flipbox\Fractal\Facades\Fractal;
+use Flipbox\Komodo\Facades\Fractal;
 use League\Fractal\Pagination\CursorInterface;
 use League\Fractal\Resource\ResourceInterface;
 use League\Fractal\Pagination\PaginatorInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Flipbox\Fractal\Transformers;
+namespace Flipbox\Komodo\Transformers;
 
 use League\Fractal\TransformerAbstract;
 

@@ -12,3 +12,7 @@
 */
 
 $app->get('/', 'AppController@index');
+
+$app->group(['middleware' => ['auth'], 'namespace' => 'App\Http\Controllers'], function ($app) {
+    $app['komodo.router']->resource('/v1/user', 'v1\UserController');
+});

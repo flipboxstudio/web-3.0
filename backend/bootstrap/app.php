@@ -107,7 +107,7 @@ $app->routeMiddleware([
 |
 */
 
-$app->register(Flipbox\Fractal\FractalServiceProvider::class);
+$app->register(Flipbox\Komodo\KomodoServiceProvider::class);
 $app->register(Laravel\Passport\PassportServiceProvider::class);
 $app->register(Dusterio\LumenPassport\PassportServiceProvider::class);
 $app->register(Flipbox\ConsoleSupport\ConsoleSupportServiceProvider::class);

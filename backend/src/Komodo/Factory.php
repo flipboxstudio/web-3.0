@@ -1,6 +1,6 @@
 <?php
 
-namespace Flipbox\Fractal;
+namespace Flipbox\Komodo;
 
 use Spatie\Fractal\Fractal as BaseFractal;
 
@@ -25,7 +25,7 @@ class Factory extends BaseFractal
      *
      * @param string $status
      *
-     * @return \Flipbox\Fractal\Factory
+     * @return \Flipbox\Komodo\Factory
      */
     public function withStatus(string $status) : Factory
     {
@@ -39,7 +39,7 @@ class Factory extends BaseFractal
      *
      * @param string $message
      *
-     * @return \Flipbox\Fractal\Factory
+     * @return \Flipbox\Komodo\Factory
      */
     public function withMessage(string $message) : Factory
     {

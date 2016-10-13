@@ -24,7 +24,9 @@
 ## Recipe
 
 - Lumen 5.3
-  - Flipbox Fractal
+  - Flipbox Komodo (Fractal)
+    - Route Resource
+    - Exception Handler
   - Flipbox Console Support
     - Code Generator
     - Optimizer
@@ -90,7 +92,8 @@ npm run build
 ## ToDo
 
 - [ ] Documentation
-- [ ] Passport test
-- [ ] Code Generator test
+- [x] Passport test
+- [x] Error handling
+- [x] Code Generator test
 - [ ] Basis CSS Framework untuk front-end developer
 - [ ] Any suggestion?
