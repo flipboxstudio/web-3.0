@@ -69,7 +69,7 @@ Berikut ini adalah metode untuk _production delivery_ aplikasi berbasis Web 3.0
 php artisan optimize --force
 ```
 
-### _Back-end developer_
+### _Front-end developer_
 
 Berikut ini adalah metode untuk _bootstrapping_ aplikasi berbasis Web 3.0
 
